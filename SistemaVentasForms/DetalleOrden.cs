@@ -12,7 +12,7 @@ namespace SistemaVentasForms
         public List<Producto> Productos { get; } = new List<Producto>();
 
         // Constructor
-        public DetalleOrden(Producto producto, List<Producto> productos)
+        public DetalleOrden( List<Producto> productos)
         {
             Productos = productos;
         }
