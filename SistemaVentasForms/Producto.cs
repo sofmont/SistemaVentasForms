@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaVentasForms
 {
-    internal abstract class Producto
+    internal class Producto
     {
         private string nombre;
         private double precio;
@@ -23,12 +23,13 @@ namespace SistemaVentasForms
             this.precio = precio;
             this.stock = stock;
         }
+        public Producto() { }
 
         public override string ToString()
         {
             return $"-{nombre} - ${precio} - Stock: {stock}";
         }
-        public abstract decimal CalcularPrecio(decimal cantidadVendida);
+     
     }
 }
 

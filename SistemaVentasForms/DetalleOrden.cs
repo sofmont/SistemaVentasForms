@@ -17,11 +17,7 @@ namespace SistemaVentasForms
             Productos = productos;
         }
 
-        public DetalleOrden(Producto producto, decimal cantidad)
-        {
-            this.producto = producto;
-            this.cantidad = cantidad;
-        }
+       
 
         public int Cantidad
         {

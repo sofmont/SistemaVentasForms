@@ -36,9 +36,9 @@ namespace SistemaVentasForms
         }
 
         // Método para agregar un producto al carrito
-        public void AgregarProducto(Producto producto, decimal cantidad)
+        public void AgregarProducto(Producto producto, int cantidad)
         {
-            Detalles.Add(new DetalleOrden(producto, cantidad));
+        //    Detalles.Add(new DetalleOrden(producto, cantidad));
         }
     }
 }

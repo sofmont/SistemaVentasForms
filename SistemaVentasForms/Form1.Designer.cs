@@ -44,7 +44,7 @@
             this.btnCrearOrden.TabIndex = 1;
             this.btnCrearOrden.Text = "Crear Orden de Venta";
             this.btnCrearOrden.UseVisualStyleBackColor = true;
-            this.btnCrearOrden.Click += new System.EventHandler(this.button1_Click);
+
             // 
             // dataGridView1
             // 
