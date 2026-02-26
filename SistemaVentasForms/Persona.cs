@@ -12,14 +12,12 @@ namespace SistemaVentasForms
         // Atributos privados
         private string nombre;
         private string telefono;
-        private string correo;
-        private string direccion;
-        private string ciudad;
+    
 
         public string Nombre { get => nombre; set => nombre = value; }
         public string Telefono { get => telefono; set => telefono = value; }
       
-
+        public Persona() { }
 
         public Persona(string nombre, string telefono)
         {
