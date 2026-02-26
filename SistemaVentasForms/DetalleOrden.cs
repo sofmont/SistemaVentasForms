@@ -6,13 +6,23 @@ namespace SistemaVentasForms
 {
     internal class DetalleOrden
     {
+        private Producto producto;
+        private decimal cantidad;
+
         public List<Producto> Productos { get; } = new List<Producto>();
 
         // Constructor
-        public DetalleOrden(List<Producto> productos)
+        public DetalleOrden(Producto producto, List<Producto> productos)
         {
             Productos = productos;
         }
+
+        public DetalleOrden(Producto producto, decimal cantidad)
+        {
+            this.producto = producto;
+            this.cantidad = cantidad;
+        }
+
         public int Cantidad
         {
             get
